@@ -1,0 +1,87 @@
+@media (max-width: 1023px) {
+
+    .conteudo__formulario--input {
+        min-width: 65%;
+        width: 55%;
+    }
+
+    .botao {
+        margin-left: 0.5rem;
+        margin-right: 0;
+    }
+
+    .listaDeTarefas__tarefa {
+        min-width: 65%;
+        max-width: 75%;
+    }
+}
+
+@media (max-width: 835px) {
+
+    .conteudo__formulario {
+        flex-wrap: wrap;
+    }
+
+    .conteudo__formulario--input {
+        min-width: 85%;
+        width: 55%;
+    }
+
+    #botaoApagar {
+        margin-left: 0;
+    }
+
+    .listaDeTarefas__tarefa {
+        min-width: 80%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    main {
+        margin-top: 0;
+    }
+
+    .conteudo {
+        width: 100%;
+        min-height: 470px;
+        border-radius: 0;
+        padding: 1rem;
+    }
+
+    .conteudo__formulario--input {
+        min-width: 85%;
+        width: 55%;
+    }
+
+    .listaDeTarefas__tarefa {
+        min-width: 70%;
+    }
+}
+
+@media (max-width: 535px) {
+
+    .conteudo__formulario--input {
+        min-width: 85%;
+        width: 55%;
+    }
+
+    .conteudo__formulario--botao {
+        margin-left: 0;
+        border-radius: 0;
+    }
+
+    .listaDeTarefas__tarefa {
+        width: 100%;
+        height: 3rem;
+    }
+
+    .botao {
+        margin: inherit 0;
+    }
+
+    .listaDeTarefas__tarefa--botao {
+        border-radius: 0;
+        margin-left: 0;
+    }
+}

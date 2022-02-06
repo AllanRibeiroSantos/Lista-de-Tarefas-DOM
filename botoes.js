@@ -22,6 +22,7 @@ elementoPai.addEventListener('click', function(event){
     for (let contador = 0; contador < botaoConcluido.length; contador++){
         if (event.target == botaoConcluido[contador]) {
             elementoTarefa[contador].classList.add('listaDeTarefas__tarefa--riscado');
+            botaoConcluido[contador].classList.add('botaoCor--concluido');
         }
     }
 })

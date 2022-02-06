@@ -2,13 +2,20 @@
     --cor_de_fundo: rgb(62, 84, 180);
     --cor_botao: rgba(94, 110, 182, 0.8);
     --cor_botao_hover: rgba(94, 110, 182, 0.6);
+    --cor_botao_pressed: rgba(27, 96, 246, 0.4);
     --cor_fundo_formulario: rgba(94, 110, 182, 0.4);
     --cor_verde_concluido: rgb(0, 233, 19);
+    --cor_verde_concluido-pressed: rgb(0, 233, 19, 0.4);
+    --cor_vermelho_exclusao: red;
+    --cor_vermelho_exclusao-pressed: rgba(255, 0, 0, 0.4);
 }
 
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.5rem;
+    background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
 input {
@@ -27,7 +34,7 @@ input {
     background-color: var(--cor_botao);
     border: none;
     border-radius: 0.3rem;
-    margin-left: 2rem;
+    margin-left: 1rem;
     padding-left: 1rem;
     padding-right: 1rem;
 }
@@ -51,7 +58,7 @@ button {
     font-style: normal;
     font-size: 24px;  /* Preferred icon size */
     display: inline-block;
-    line-height: 1;
+    line-height: 0;
     text-transform: none;
     letter-spacing: normal;
     word-wrap: normal;
@@ -70,87 +77,10 @@ button {
     font-feature-settings: 'liga';
   }
 
-/* MAIN */
-
-main {
+  main {
     display: flex;
     justify-content: center;
-    margin-top: 7.5%;
+    align-items: center;
+    margin-top: 10rem;
     color: white;
-}
-
-.conteudo {
-    width: 70%;
-    min-height: 470px;
-    background-color: var(--cor_de_fundo);
-    border-radius: 1rem;
-    padding: 2rem;
-}
-
-.conteudo__titulo--principal {
-    text-align: center;
-    font-size: 3rem;
-}
-
-.conteudo__tracoHorizontal {
-    border-bottom: 4px solid #FFF;
-    margin-top: 2rem;
-}
-
-.conteudo__formulario--titulo {
-    margin-top: 2rem;
-}
-
-.conteudo__formulario {
-    display: flex;
-    align-items: center;
-}
-
-.conteudo__formulario--input {
-    width: 25rem;
-    padding: 0.5rem;
-    box-sizing: border-box;
-}
-
-.conteudo__formulario--botao {
-    width: 3rem;
-}
-
-.conteudo__formulario--botao:active {
-    background-color: red;
-}
-
-/* LISTA */
-
-.listaDeTarefas {
-    display: flex;
-    align-items: center;
-}
-
-.listaDeTarefas__tarefa {
-    background-color: var(--cor_fundo_formulario);
-    width: 50%;
-    height: 2.8rem;
-    box-sizing: border-box;
-    padding: 0.5rem;
-    border-bottom: 2px solid white;
-}
-
-.listaDeTarefas__tarefa--botao {
-    padding: 8px;
-}
-
-.listaDeTarefas__tarefa--riscado {
-    text-decoration: line-through;
-    color: var(--cor_verde_concluido);
-    border-color: var(--cor_verde_concluido);
-}
-
-.botaoCores {
-    display: block;
-    width: 30px;
-    height: 30px;
-    margin: 2px;
-    border-radius: 2px;
-    background-color: rgba(247, 9, 9, 0.8);
 }
