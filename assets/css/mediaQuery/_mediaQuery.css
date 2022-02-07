@@ -18,6 +18,17 @@
 
 @media (max-width: 835px) {
 
+    main {
+        margin-top: 0;
+    }
+
+    .conteudo {
+        width: 100%;
+        min-height: 470px;
+        border-radius: 0;
+        padding: 1rem;
+    }
+
     .conteudo__formulario {
         flex-wrap: wrap;
     }
@@ -37,17 +48,6 @@
 }
 
 @media (max-width: 767px) {
-
-    main {
-        margin-top: 0;
-    }
-
-    .conteudo {
-        width: 100%;
-        min-height: 470px;
-        border-radius: 0;
-        padding: 1rem;
-    }
 
     .conteudo__formulario--input {
         min-width: 85%;
