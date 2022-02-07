@@ -17,6 +17,9 @@
 }
 
 @media (max-width: 835px) {
+    body {
+        height: auto;
+    }
 
     main {
         margin-top: 0;

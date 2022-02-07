@@ -28,14 +28,17 @@ elementoPai.addEventListener('click', function(event){
 })
 
 // BOTÃO APAGAR LISTA
+const apagarLista = document.querySelector('input[value="Apagar lista"]');
 
-// const apagarLista = document.querySelector('input[value="Apagar lista"]')
+apagarLista.addEventListener('click', function(){
+    const elementoPai_tarefas = document.querySelector('.conteudo__tarefas');
+    elementoPai_tarefas.remove();
 
-// apagarLista.addEventListener('click', function(){
-//     const elementoTarefa = document.querySelector('.conteudo__tarefas');
-//     elementoTarefa.remove();
+    const elementoPai_tarefas_dinamico = document.querySelector('.conteudo__tarefas');
 
-//     const divisaoCriada = document.createElement('div');
-//     divisaoCriada.classList.add('listaDeTarefas');
-//     elementoPai.appendChild(divisaoCriada);
-// })
+    if (!elementoPai_tarefas_dinamico) {
+        const elementoPaiCriado = document.createElement('div');
+        elementoPaiCriado.classList.add('conteudo__tarefas');
+        elementoPai.appendChild(elementoPaiCriado);
+    }    
+})

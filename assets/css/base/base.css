@@ -1,5 +1,5 @@
 :root {
-    --cor_de_fundo: rgb(62, 84, 180);
+    --cor_de_fundo: rgb(32, 40, 77);
     --cor_botao: rgba(94, 110, 182, 0.8);
     --cor_botao_hover: rgba(94, 110, 182, 0.6);
     --cor_botao_pressed: rgba(27, 96, 246, 0.4);
@@ -15,7 +15,7 @@ body {
     font-size: 1.5rem;
     background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 81vh;
 }
 
 input {
