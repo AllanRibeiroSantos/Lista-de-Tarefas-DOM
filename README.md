@@ -12,6 +12,7 @@ A única base que eu tive é de algumas pessoas que também fizeram, reunindo tu
     - BEM;
     - Atomic Design;
 - Javascript:
+    - Validação básica;
     - Manipulação do DOM.
 
 Eu escrevi vários comentários no código onde eu tive problemas, e o que eu fiz para soluciona-los.
@@ -37,7 +38,7 @@ Sugestões de melhoria:
 **Ilustração: Funcionamento**
 
 <div align="center">
-    <img src="// Gif do projeto">
+    <img src="https://user-images.githubusercontent.com/61354355/153063038-082522db-388a-4747-a359-47c5ff039584.gif">
 </div><br>
 
 **Ilustração: Problemas não solucionados**
@@ -46,8 +47,19 @@ Alguns problemas ainda não solucionado:
 - Botões de confirmar e de remover tarefa só funcionam quando clicados exatamente em cima do ícone;
 - Caso o usuário escreva muitos caracteres a lista de tarefas irá quebrar.
 
+**Botões:**
 <div align="center">
-    <img src="// Gif do projeto">
+    <img src="https://user-images.githubusercontent.com/61354355/153062557-0bdf6035-533e-42dd-8d17-458f30a02888.PNG">
+</div><br>
+
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/61354355/153062862-3995e233-9f76-416e-84ff-f30d8a56470a.PNG">
+</div><br>
+
+**Lista quebrada:**
+
+<div align="center">
+    <img src="https://user-images.githubusercontent.com/61354355/153063751-a30d18ef-906f-417a-8059-408f7f7e59dd.png">
 </div><br>
 
 Para uma visualização melhor do projeto veja no meu canal do Youtube, lá eu faço videos curtos onde eu mostro cada um deles.
