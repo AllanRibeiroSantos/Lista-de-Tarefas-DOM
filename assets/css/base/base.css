@@ -15,7 +15,7 @@ body {
     font-size: 1.5rem;
     background: linear-gradient(45deg, #a7cfdf 0%,#23538a 100%);
     background-repeat: no-repeat;
-    height: 81vh;
+    height: calc(100vh - 10rem);
 }
 
 input {
