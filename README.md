@@ -2,8 +2,6 @@
 
 ### Introdução 
 
----
-
 Meu novo projeto é a famosa Lista de Tarefas, que basicamente envolve TUDO o que eu já aprendi até agora, eu recomendo bastante alguem que está começando a trabalhar com DOM à fazer ele, é um bom treino.
 
 A única base que eu tive é de algumas pessoas que também fizeram, reunindo tudo o que eu aprendi na Alura que são:
@@ -16,17 +14,11 @@ A única base que eu tive é de algumas pessoas que também fizeram, reunindo tu
 - Javascript:
     - Manipulação do DOM.
 
-Alguns problemas ainda não solucionado:
-- Botões de confirmar e de remover tarefa só funcionam quando clicados exatamente em cima do ícone;
-- Caso o usuário escreva muitos caracteres a lista de tarefas irá quebrar;
-
 Eu escrevi vários comentários no código onde eu tive problemas, e o que eu fiz para soluciona-los.
 
 O projeto ainda tem muito o que melhorar então eu os convido à dar uma olhada no projeto, faça sugestões caso achar necessário comunicando por aqui ou no meu LinkedIn. Interação é tudo pessoal :) . Deixarei os links abaixo.
 
 ### Projeto: Objetivo e Ilustração
-
----
 
 O objetivo deste projeto é trazer uma Lista de Tarefas onde o usuário escreve o que quer imprimir em tela, e nela poderá:
 
@@ -49,6 +41,10 @@ Sugestões de melhoria:
 </div><br>
 
 **Ilustração: Problemas não solucionados**
+
+Alguns problemas ainda não solucionado:
+- Botões de confirmar e de remover tarefa só funcionam quando clicados exatamente em cima do ícone;
+- Caso o usuário escreva muitos caracteres a lista de tarefas irá quebrar.
 
 <div align="center">
     <img src="// Gif do projeto">
