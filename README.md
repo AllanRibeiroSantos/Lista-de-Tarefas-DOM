@@ -24,7 +24,7 @@ Eu escrevi vários comentários no código onde eu tive problemas, e o que eu fi
 
 O projeto ainda tem muito o que melhorar então eu os convido à dar uma olhada no projeto, faça sugestões caso achar necessário comunicando por aqui ou no meu LinkedIn. Interação é tudo pessoal :) . Deixarei os links abaixo.
 
-### Projeto: Objetovo e Ilustração
+### Projeto: Objetivo e Ilustração
 
 ---
 
