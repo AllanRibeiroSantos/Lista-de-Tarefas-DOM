@@ -2,7 +2,7 @@
 
 ### Introdução 
 
-Meu novo projeto é a famosa Lista de Tarefas, que basicamente envolve TUDO o que eu já aprendi até agora, eu recomendo bastante alguem que está começando a trabalhar com DOM à fazer ele, é um bom treino.
+Meu novo projeto é a famosa Lista de Tarefas, que basicamente envolve TUDO o que eu aprendi até agora, para quem está començando a estudar DOM recomendo bastante fazer ele, é um bom treino.
 
 A única base que eu tive é de algumas pessoas que também fizeram, reunindo tudo o que eu aprendi na Alura que são:
 
@@ -43,7 +43,7 @@ Sugestões de melhoria:
 
 **Ilustração: Problemas não solucionados**
 
-Alguns problemas ainda não solucionado:
+Alguns problemas ainda não solucionados:
 - Botões de confirmar e de remover tarefa só funcionam quando clicados exatamente em cima do ícone;
 - Caso o usuário escreva muitos caracteres a lista de tarefas irá quebrar.
 
